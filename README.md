@@ -1,6 +1,16 @@
 Scotch Box
 ==========
 
+## This is a _very_ simple fork of the wonderful Scotch Vagrant box (see below)
+
+When starting up, you specify the directory that will map to /var/www on the guest (Vagrant):
+
+- Use the WWW_DIR environment variable to set the directory as so:
+
+```bash
+WWW_DIR='~/Documents/web' vagrant up
+```
+
 ## Check out the official docs at: [box.scotch.io][16]
 ## Read the article at [scotch.io][17]
 
